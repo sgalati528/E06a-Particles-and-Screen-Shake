@@ -39,7 +39,6 @@ script = ExtResource( 2 )
 
 [node name="Particles1" type="Particles2D" parent="."]
 position = Vector2( 128, 256 )
-scale = Vector2( 3, 3 )
 amount = 2
 lifetime = 0.65
 process_material = SubResource( 1 )
@@ -47,6 +46,7 @@ texture = ExtResource( 3 )
 
 [node name="Particles2" type="Particles2D" parent="."]
 position = Vector2( 512, 256 )
+scale = Vector2( 0.5, 0.5 )
 amount = 3
 lifetime = 5.0
 speed_scale = 0.5
@@ -65,4 +65,5 @@ texture = ExtResource( 5 )
 
 [node name="Camera" type="Camera2D" parent="."]
 position = Vector2( 512, 304 )
+current = true
 script = ExtResource( 1 )
